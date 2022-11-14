@@ -1,0 +1,21 @@
+
+
+.subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 165.9%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+
+    @media (min-width: 575px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
+
+}
