@@ -579,7 +579,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function PlayVideo() {
   var videoList = [{
     thumbnail: "https://via.placeholder.com/500/FFA500/FFFFFF",
-    url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    url: "https://www.youtube.com/watch?v=J4X8Hx6-ltY",
     imgAlt: "Image 1 not found"
   }, {
     thumbnail: "https://via.placeholder.com/500/FF0000/FFFFFF",
@@ -1979,4 +1979,4 @@ module.exports = __webpack_require__.p + "assets/eb97523d7891921befbf.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.51a564672cc259998381.js.map
+//# sourceMappingURL=scripts.61330f63174e546388bd.js.map
