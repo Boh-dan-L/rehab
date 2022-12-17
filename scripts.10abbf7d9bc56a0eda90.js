@@ -332,8 +332,10 @@ var VideoPrev = function VideoPrev() {
     width: '100%',
     playerVars: {
       autoplay: 1,
-      loop: 1,
-      controls: 1
+      disablekb: 1,
+      controls: 1,
+      cc_load_policy: 1,
+      hl: 'uk'
     }
   };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -378,9 +380,10 @@ var PlayList = function PlayList() {
     height: '100%',
     width: '100%',
     playerVars: {
-      autoplay: 0,
-      loop: 1,
+      autoplay: 1,
+      loop: 0,
       controls: 1,
+      hl: 'uk',
       ListType: 'playlist',
       list: 'PLXJwr7tq-Wx-p39nRhpYotub7g8Pand22'
     }
@@ -397,7 +400,7 @@ var PlayList = function PlayList() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "video-title"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Text_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    exercis: "\u0411\u0432\u043D\u043A\u0430 \u0434\u043B\u044F \u0434\u043E\u043D\u0430\u0442\u0456\u0432:"
+    exercis: "\u0411\u0430\u043D\u043A\u0430 \u0434\u043B\u044F \u0434\u043E\u043D\u0430\u0442\u0456\u0432:"
   })));
 };
 
@@ -1116,7 +1119,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nli {\n  list-style: none;\n}", "",{"version":3,"sources":["webpack://./src/style/index.scss"],"names":[],"mappings":"AAEA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;AAAJ;;AAGA;EACI,gBAAA;AAAJ","sourcesContent":["@import url(../fonts/fonts.scss);\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nli {\n    list-style: none;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n* :focus {\n  outline: none;\n}\n\nli {\n  list-style: none;\n}", "",{"version":3,"sources":["webpack://./src/style/index.scss"],"names":[],"mappings":"AAEA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;AAAJ;AACI;EACI,aAAA;AACR;;AAGA;EACI,gBAAA;AAAJ","sourcesContent":["@import url(../fonts/fonts.scss);\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    :focus {\n        outline: none;\n    }\n}\n\nli {\n    list-style: none;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2136,4 +2139,4 @@ module.exports = __webpack_require__.p + "assets/42b3db2de10be590bf33.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.14fdd3fefffb4e0055c3.js.map
+//# sourceMappingURL=scripts.10abbf7d9bc56a0eda90.js.map
