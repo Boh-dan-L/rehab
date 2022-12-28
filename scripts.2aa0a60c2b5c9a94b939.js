@@ -713,7 +713,7 @@ var Footer = function Footer() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiFacebook, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "viber: // add?%20number%20=380500869337",
+    href: "https://tinyurl.com/2p8x47ar",
     className: "footer__icons--viber"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_6__.FaViber, {
     className: "react-icons"
@@ -2769,4 +2769,4 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.7ef5b320ea8f2eef120f.js.map
+//# sourceMappingURL=scripts.2aa0a60c2b5c9a94b939.js.map
