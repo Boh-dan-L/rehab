@@ -620,9 +620,15 @@ var PlayList = function PlayList() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Text_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
     exercis: "\u0414\u043B\u044F \u0434\u043E\u043D\u0430\u0442\u0456\u0432:"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "video-title"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Text_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    exercis: "5175-2378-8964-9328"
+    className: "video-donate"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://send.monobank.ua/jar/2fDaWaSzTd",
+    target: "_blank",
+    className: "video-donate__mono"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.privat24.ua/rd/transfer_to_card/?hash=rd%2Ftransfer_to_card%2F%7B%22from%22%3A%22%22%2C%22to%22%3A%225168752080776746%22%2C%22amt%22%3A%220%22%2C%22ccy%22%3A%22UAH%22%7D",
+    target: "_blank",
+    className: "video-donate__privat"
   })));
 };
 
@@ -703,27 +709,32 @@ var Footer = function Footer() {
   }), "+38(050)-086-93-37")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "footer__icons"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://t.me/Bogdanrehab",
+    target: "blank",
     className: "footer__icons--telega"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_tb__WEBPACK_IMPORTED_MODULE_4__.TbBrandTelegram, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://www.facebook.com/Bogdan.rehab",
+    target: "blank",
     className: "footer__icons--facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiFacebook, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://tinyurl.com/2p8x47ar",
+    href: "viber://add?number=380500869337",
+    target: "blank",
     className: "footer__icons--viber"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_6__.FaViber, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://www.youtube.com/channel/UCwmnffKo-6yY4u5SaXMB5eA",
+    target: "blank",
     className: "footer__icons--facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiYoutube, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://www.instagram.com/bogdan.rehab/",
+    target: "blank",
     className: "footer__icons--facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiInstagram, {
     className: "react-icons"
@@ -1282,12 +1293,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/mono.jpg */ "./src/img/mono.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/privat24.jpg */ "./src/img/privat24.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".video-container-styles {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  position: relative;\n  padding-top: 56.25%;\n}\n@media (min-width: 1024px) {\n  .video-container-styles {\n    padding-top: 36.25%;\n  }\n}\n\n.video-styles {\n  position: absolute;\n  top: 0;\n  left: auto;\n  width: 90%;\n  height: 98%;\n}\n@media (min-width: 1024px) {\n  .video-styles {\n    width: 60%;\n  }\n}\n\n.video-title {\n  margin-top: 40px;\n}", "",{"version":3,"sources":["webpack://./src/PageVideoCurse/VideoSlider/videoplayer.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;AACJ;AACI;EAPJ;IAQQ,mBAAA;EAEN;AACF;;AACA;EACI,kBAAA;EACA,MAAA;EACA,UAAA;EACA,UAAA;EACA,WAAA;AAEJ;AAAI;EAPJ;IAQQ,UAAA;EAGN;AACF;;AAAA;EACI,gBAAA;AAGJ","sourcesContent":[".video-container-styles {\n    display: flex;\n    justify-content: center;\n    margin-top: 20px;\n    position: relative;\n    padding-top: 56.25%;\n\n    @media (min-width: 1024px) {\n        padding-top: 36.25%;\n    }\n}\n\n.video-styles {\n    position: absolute;\n    top: 0;\n    left: auto;\n    width: 90%;\n    height: 98%;\n\n    @media (min-width: 1024px) {\n        width: 60%;\n    }\n}\n\n.video-title {\n    margin-top: 40px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".video-container-styles {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n  position: relative;\n  padding-top: 56.25%;\n}\n@media (min-width: 1024px) {\n  .video-container-styles {\n    padding-top: 36.25%;\n  }\n}\n\n.video-styles {\n  position: absolute;\n  top: 0;\n  left: auto;\n  width: 90%;\n  height: 98%;\n}\n@media (min-width: 1024px) {\n  .video-styles {\n    width: 60%;\n  }\n}\n\n.video-title {\n  margin-top: 40px;\n}\n\n.video-donate {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n}\n.video-donate__mono {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  width: 94px;\n  height: 127px;\n  margin-right: 10px;\n}\n@media (min-width: 1024px) {\n  .video-donate__mono {\n    width: 114px;\n    height: 147px;\n    margin-right: 20px;\n  }\n}\n.video-donate__privat {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  width: 90px;\n  height: 90px;\n}\n@media (min-width: 1024px) {\n  .video-donate__privat {\n    width: 110px;\n    height: 110px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/PageVideoCurse/VideoSlider/videoplayer.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;AACJ;AACI;EAPJ;IAQQ,mBAAA;EAEN;AACF;;AACA;EACI,kBAAA;EACA,MAAA;EACA,UAAA;EACA,UAAA;EACA,WAAA;AAEJ;AAAI;EAPJ;IAQQ,UAAA;EAGN;AACF;;AAAA;EACI,gBAAA;AAGJ;;AAAA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,gBAAA;AAGJ;AADI;EACI,yDAAA;EACA,4BAAA;EACA,sBAAA;EACA,WAAA;EACA,aAAA;EACA,kBAAA;AAGR;AADQ;EARJ;IASQ,YAAA;IACA,aAAA;IACA,kBAAA;EAIV;AACF;AADI;EACI,yDAAA;EACA,4BAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;AAGR;AADQ;EAPJ;IAQQ,YAAA;IACA,aAAA;EAIV;AACF","sourcesContent":[".video-container-styles {\n    display: flex;\n    justify-content: center;\n    margin-top: 20px;\n    position: relative;\n    padding-top: 56.25%;\n\n    @media (min-width: 1024px) {\n        padding-top: 36.25%;\n    }\n}\n\n.video-styles {\n    position: absolute;\n    top: 0;\n    left: auto;\n    width: 90%;\n    height: 98%;\n\n    @media (min-width: 1024px) {\n        width: 60%;\n    }\n}\n\n.video-title {\n    margin-top: 40px;\n}\n\n.video-donate {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin-top: 20px;\n\n    &__mono {\n        background-image: url(../../img/mono.jpg);\n        background-repeat: no-repeat;\n        background-size: cover;\n        width: 94px;\n        height: 127px;\n        margin-right: 10px;\n\n        @media (min-width: 1024px) {\n            width: 114px;\n            height: 147px;\n            margin-right: 20px;\n        }\n    }\n\n    &__privat {\n        background-image: url(../../img/privat24.jpg);\n        background-repeat: no-repeat;\n        background-size: cover;\n        width: 90px;\n        height: 90px;\n\n        @media (min-width: 1024px) {\n            width: 110px;\n            height: 110px;\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2485,6 +2503,16 @@ module.exports = __webpack_require__.p + "assets/5b3a03f85d2741db18a8.svg";
 
 /***/ }),
 
+/***/ "./src/img/mono.jpg":
+/*!**************************!*\
+  !*** ./src/img/mono.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/3a7e5e9a1f302a0e3ea5.jpg";
+
+/***/ }),
+
 /***/ "./src/img/onlineConsul.png":
 /*!**********************************!*\
   !*** ./src/img/onlineConsul.png ***!
@@ -2512,6 +2540,16 @@ module.exports = __webpack_require__.p + "assets/13af4e024fa42eadcd7c.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/6d668cfff82185f0dd8e.png";
+
+/***/ }),
+
+/***/ "./src/img/privat24.jpg":
+/*!******************************!*\
+  !*** ./src/img/privat24.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/ff7acb780f2f688b07a5.jpg";
 
 /***/ }),
 
@@ -2769,4 +2807,4 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.2aa0a60c2b5c9a94b939.js.map
+//# sourceMappingURL=scripts.f24997ad53ab9b23895a.js.map
