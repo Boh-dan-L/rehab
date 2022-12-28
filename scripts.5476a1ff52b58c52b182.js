@@ -14,14 +14,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
-/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Footer/Footer */ "./src/components/Footer/Footer.js");
-/* harmony import */ var _components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Navbar/Navbar */ "./src/components/Navbar/Navbar.js");
-/* harmony import */ var _PageOne_PageOne__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PageOne/PageOne */ "./src/PageOne/PageOne.js");
-/* harmony import */ var _PageVideoCurse_PageVideoCouse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PageVideoCurse/PageVideoCouse */ "./src/PageVideoCurse/PageVideoCouse.js");
-/* harmony import */ var _PagePrice_PagePrice__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./PagePrice/PagePrice */ "./src/PagePrice/PagePrice.js");
-/* harmony import */ var _PageContacts_PageContacts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./PageContacts/PageContacts */ "./src/PageContacts/PageContacts.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var _PageOne_PageOne__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PageOne/PageOne */ "./src/PageOne/PageOne.js");
+/* harmony import */ var _PageVideoCurse_PageVideoCouse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PageVideoCurse/PageVideoCouse */ "./src/PageVideoCurse/PageVideoCouse.js");
+/* harmony import */ var _PagePrice_PagePrice__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PagePrice/PagePrice */ "./src/PagePrice/PagePrice.js");
+/* harmony import */ var _PageContacts_PageContacts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PageContacts/PageContacts */ "./src/PageContacts/PageContacts.js");
+/* harmony import */ var _components_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Layout/Layout */ "./src/components/Layout/Layout.js");
 
 
 
@@ -29,22 +28,27 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
+var route = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_6__.createBrowserRouter)((0,react_router_dom__WEBPACK_IMPORTED_MODULE_7__.createRoutesFromElements)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  path: "/",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null)
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  index: true,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageOne_PageOne__WEBPACK_IMPORTED_MODULE_1__["default"], null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  path: "/online",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageVideoCurse_PageVideoCouse__WEBPACK_IMPORTED_MODULE_2__["default"], null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  path: "/services",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PagePrice_PagePrice__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+  path: "/contacts",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageContacts_PageContacts__WEBPACK_IMPORTED_MODULE_4__["default"], null)
+}))));
 
 var App = function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageOne_PageOne__WEBPACK_IMPORTED_MODULE_3__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/online",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageVideoCurse_PageVideoCouse__WEBPACK_IMPORTED_MODULE_4__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/services",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PagePrice_PagePrice__WEBPACK_IMPORTED_MODULE_5__["default"], null)
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/contacts",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PageContacts_PageContacts__WEBPACK_IMPORTED_MODULE_6__["default"], null)
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.RouterProvider, {
+    router: route
+  }));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
@@ -745,6 +749,34 @@ var Footer = function Footer() {
 
 /***/ }),
 
+/***/ "./src/components/Layout/Layout.js":
+/*!*****************************************!*\
+  !*** ./src/components/Layout/Layout.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Footer/Footer */ "./src/components/Footer/Footer.js");
+/* harmony import */ var _Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Navbar/Navbar */ "./src/components/Navbar/Navbar.js");
+
+
+
+
+
+var Layout = function Layout() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Outlet, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+/***/ }),
+
 /***/ "./src/components/Navbar/Menu.js":
 /*!***************************************!*\
   !*** ./src/components/Navbar/Menu.js ***!
@@ -786,7 +818,7 @@ var Menu = function Menu(_ref) {
       onClick: function onClick() {
         return setActive(false);
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.NavLink, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
       className: "menu__content--a",
       to: item.to
     }, item.value));
@@ -854,7 +886,7 @@ var Navbar = function Navbar() {
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "nav"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.NavLink, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     to: "/",
     className: "nav__link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -939,6 +971,7 @@ var MTitle = (0,framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion)(Title);
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+var __dirname = "/";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/index.scss */ "./src/style/index.scss");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -949,68 +982,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var container = document.getElementById('app');
 var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(container); // createRoot(container!) if you use TypeScript
 
-root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
   tab: "home"
-})); // async function getVideoDetails (id, hostname) {
-//     const key = 'YOUTUBE_API_KEY'
-//     if (!id) {
-//       return 'Please provide an id'
-//     }
-//     const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?id=${id}&part=snippet&key=${key}`, {
-//       headers: {
-//         'Access-Control-Allow-Origin': hostname,
-//         'Content-Type': 'application/json'
-//       },
-//       crossdomain: true
-//     })
-//       .then(resp => resp.json())
-//       .then((response) => {
-//         const videoDetails = response.items[0].snippet
-//         const channel = videoDetails.channelTitle
-//         const title = videoDetails.localized.title
-//         const thumbnails = videoDetails.thumbnails
-//         const videoDetailsObj = {
-//           id: id,
-//           title: title,
-//           channel: channel,
-//           thumb: thumbnails
-//         }
-//         return videoDetailsObj
-//       })
-//       .catch(() => {
-//         return 'Invalid id or failed request to YouTube'
-//       })
-//     return response
-//   }
-//   const corsHeaders = {
-//     'Access-Control-Allow-Origin': '*',
-//     // 'Access-Control-Allow-Origin': "https://yourdomain",
-//     'Access-Control-Allow-Methods': 'GET, HEAD, POST, OPTIONS',
-//     'Access-Control-Allow-Headers': 'Content-Type'
-//   }
-//   async function handleRequest (request) {
-//     const url = new URL(request.url)
-//     const hostname = url.hostname
-//     const videoId = url.searchParams.get('vid')
-//     const videoDetails = await getVideoDetails(videoId, hostname)
-//     return new Response(JSON.stringify(videoDetails), {
-//       headers: corsHeaders,
-//       status: 200
-//     })
-//   }
-//   addEventListener('fetch', event => {
-//     if (event.request.method !== 'PUT' || event.request.method !== 'DELETE') {
-//       return event.respondWith(handleRequest(event.request))
-//     } else {
-//       return new Response(null, {
-//         status: 405,
-//         statusText: 'Method Not Allowed'
-//       })
-//     }
-//   })
+}))); // let express = require('express');
+// let app = express();
+// app.use(express.static('public'));
+// app.use(express.urlencoded({extended: true}));
+// app.use(express.json());
+// let PORT = process.env.PORT || 8080;
+// app.listen(PORT, function() {
+//     console.log(`Server listening on ${PORT}`);
+// });
+
+scripts.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "../dist", "index.html"));
+});
 
 /***/ }),
 
@@ -2682,18 +2672,6 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -2721,22 +2699,7 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -2807,4 +2770,4 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.f24997ad53ab9b23895a.js.map
+//# sourceMappingURL=scripts.5476a1ff52b58c52b182.js.map
