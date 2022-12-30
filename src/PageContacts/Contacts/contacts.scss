@@ -1,0 +1,129 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+
+    &__img {
+        background-image: url(../../img/About.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        width: 205px;
+        height: 167px;
+        margin-top: 9px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 2px;
+        object-fit: cover;
+
+        @media (min-width: 575px) {
+            width: 290px;
+            height: 238px;
+        }
+    }
+
+    &__title {
+        margin-top: 25px;
+
+        .title {
+            color: #008FAD;
+
+
+        @media (min-width: 1024px) {
+            font-size: 24px;
+        }
+        }
+    }
+
+    &__tell {
+        margin: 15px 0;
+
+        @media (min-width: 1024px) {
+            margin: 30px 0;
+        }
+
+
+        &--namb{
+            display: block;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 190.9%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            color:#008FAD;
+            margin-left: 3px;
+
+            @media (min-width: 1024px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+
+        &--telega, &--facebook, &--viber, &--youtube, &--instagram {
+            text-decoration: none;
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            transition: 0.3s;
+
+
+            @media (min-width: 576px) {
+                width: 45px;
+                height: 45px;
+            }
+        }
+
+        &--telega:hover, &--facebook:hover, &--viber:hover, &--youtube:hover, &--instagram:hover {
+            translate: 0 -3px;
+            // box-shadow: 5px 5px 4px 1px rgba(0, 0, 0, 0.25);
+        }
+
+        &--telega {
+            margin-left: 7px;
+            background-image: url(../../img/telegram.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        &--facebook {
+            margin-left: 20px;
+            background-image: url(../../img/facebook.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &--viber {
+            margin-left: 20px;
+            background-image: url(../../img/viber.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &--youtube {
+            margin-left: 20px;
+            background-image: url(../../img/youtube.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &--instagram {
+            margin-left: 20px;
+            background-image: url(../../img/instagram.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    }
+}

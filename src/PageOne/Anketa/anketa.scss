@@ -1,0 +1,79 @@
+
+
+.anketa {
+    z-index: 5;
+    display: grid;
+
+    @media (min-width: 1024px) {
+        position: absolute;
+        top: 15%;
+        right: 18%;
+    }
+
+    &__img {
+        background-image: url(../../img/Anketa.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        width: 190px;
+        height: 140px;
+        margin: -15px auto 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 2px;
+        object-fit: cover;
+        object-position: 50% 71%;
+
+
+    @media (min-width: 575px) {
+        width: 290px;
+        height: 219px;
+    }
+
+    @media (min-width: 1024px) {
+        background-image: url(../../img/Anketa1.jpg);
+        background-position-y: 74%;
+        width: 344px;
+        height: 257px;
+    }
+
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        margin: 27px auto 0;
+
+        @media (min-width: 575px) {
+            width: 380px;
+        }
+
+        @media (min-width: 1024px) {
+            width: 458px;
+            margin: 45px 0 45px 0;
+        }
+
+        .title {
+            @media (min-width: 1024px) {
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        text-decoration: none;
+
+        @media (min-width: 1024px) {
+            margin-top: 20px;
+
+            .button__prime.anketa__button {
+                color: #fff;
+                background-color: #008FAD;
+            }
+        }
+    }
+}

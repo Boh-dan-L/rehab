@@ -1,0 +1,21 @@
+.video-prev {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 56.25%
+}
+
+.video-prev__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.video-prev__style {
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 30%;
+    height: 98%;
+}

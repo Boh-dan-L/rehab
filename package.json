@@ -6,7 +6,8 @@
   "scripts": {
     "start": "NOD_ENV=development webpack serve --open",
     "dev": "NOD_ENV=development webpack",
-    "build": "NOD_ENV=production webpack"
+    "build": "NOD_ENV=production webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Boh-dan-L/Bogdan.rehab/issues"
   },
-  "homepage": "https://github.com/Boh-dan-L/Bogdan.rehab#readme",
+  "homepage": " https://boh-dan-l.github.io/bogdan.rehab/",
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/node": "^7.19.1",
@@ -48,6 +49,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
+    "cors": "^2.8.5",
     "framer-motion": "^7.6.4",
     "jquery": "^3.6.1",
     "react-icons": "^4.6.0",

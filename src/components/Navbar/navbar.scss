@@ -71,24 +71,18 @@
 
         &--btn::after {
             content: '';
-            bottom: -6px;
+            bottom: -10px;
             transition: bottom 300ms 300ms, transform 300ms;
             transition: cubic-bazier(0.23, 1, 0.32, 1);
 
-            @media (min-width: 575px) {
-                bottom: -10px;
-            }
         }
 
         &--btn::before {
             content: '';
-            top: -6px;
+            top: -10px;
             transition: top 300ms 300ms, transform 300ms;
             transition: cubic-bazier(0.23, 1, 0.32, 1);
 
-            @media (min-width: 575px) {
-                top: -10px;
-            }
         }
 
         .active {

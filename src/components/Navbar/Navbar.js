@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
 
     const [menuActive, setMenuActive] = useState(false)
-    const items = [{value:'головна', to:'/'},{value:'послуги', href:'/'},{value:'онлайн реабілітація', to:'/online'},{value:'контакти', href:'/'}]
+    const items = [{id: 1, value:'головна', to:'/'},{id: 2, value:'послуги', to:'/services'},{id: 3, value:'реабілітація вдома', to:'/online'},{id: 4, value:'контакти', to:'/contacts'}]
     return (
         <header>
             <div className='nav'>

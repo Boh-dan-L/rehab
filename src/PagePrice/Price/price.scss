@@ -1,0 +1,116 @@
+
+
+
+.price {
+    padding-top: 20px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @media (min-width: 576px) {
+            flex-wrap: wrap;
+        }
+
+        @media (min-width: 1024px) {
+            justify-content: space-around;
+        }
+    }
+
+    li:first-child {
+        background: url(../../img/rehabHome.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        // @media (min-width: 764px) {
+        //     margin-left: 15px;
+        // }
+    }
+
+    li:nth-child(2) {
+        background: url(../../img/onlineConsul.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        // @media (min-width: 764px) {
+        //     margin-left: 15px;
+        // }
+    }
+
+    li:nth-child(3) {
+        background: url(../../img/onlineRehab.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        // @media (min-width: 764px) {
+        //     margin-left: 15px;
+        // }
+    }
+
+    &__li {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 281px;
+        height: 147px;
+        margin-bottom: 30px;
+
+        @media (min-width: 540px) {
+            width: 382px;
+            height: 227px;
+            justify-content: space-around;
+            padding: 25px 0;
+        }
+
+
+        @media (min-width: 764px) {
+            margin: 15px 15px;
+        }
+    }
+
+    &__title {
+        margin-top: 15px;
+    }
+
+    &__title, &__subtitle {
+        color: white;
+        margin-bottom: 7px;
+
+        .title {
+            font-weight: 700;
+            font-size: 15px;
+            color: #fff;
+
+            @media (min-width: 540px) {
+                font-size: 19px;
+            }
+        }
+    }
+
+    &__subtitle {
+        .title {
+            font-size: 18px;
+
+            @media (min-width: 540px) {
+                font-size: 21px;
+            }
+        }
+    }
+
+    &__btn {
+
+        .button-prime  {
+            width: 121px;
+            height: 35px;
+
+            @media (min-width: 576px) {
+                width: 151px;
+                height: 45px;
+            }
+        }
+    }
+}

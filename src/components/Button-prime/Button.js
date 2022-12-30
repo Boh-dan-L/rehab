@@ -5,7 +5,7 @@ const Button = (props) => {
     // const Tag = Attr.href ? 'a' : 'button';
     return (
         <button  className='button-prime'>
-            {props.anketa}
+            {props.anketa}{props.price}
         </button>
     )
 }

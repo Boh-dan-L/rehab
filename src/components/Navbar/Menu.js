@@ -10,7 +10,7 @@ const Menu = ({items, active, setActive}) => {
             <div className='menu__content' onClick={e=>e.stopPropagation()}>
                 <ul>
                     {items.map(item =>
-                        <li className='menu__content--li' onClick ={()=> setActive(false)}>
+                        <li key={item.id} className='menu__content--li' onClick ={()=> setActive(false)}>
                             <NavLink className='menu__content--a' to={item.to}>{item.value}</NavLink>
                         </li>
                     )}

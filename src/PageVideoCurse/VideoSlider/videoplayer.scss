@@ -1,0 +1,27 @@
+.video-container-styles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 56.25%;
+
+    @media (min-width: 1024px) {
+        padding-top: 36.25%;
+    }
+}
+
+.video-styles {
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 90%;
+    height: 98%;
+
+    @media (min-width: 1024px) {
+        width: 60%;
+    }
+}
+
+.video-title {
+    margin-top: 40px;
+}

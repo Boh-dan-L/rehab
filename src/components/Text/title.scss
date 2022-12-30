@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 190.9%;
+    line-height: 23px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
@@ -16,5 +16,6 @@
 
     @media (min-width: 1024px) {
         font-size: 21px;
+        line-height: 40px;
     }
 }

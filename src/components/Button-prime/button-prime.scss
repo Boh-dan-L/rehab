@@ -4,13 +4,13 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 190.9%;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FDFDFD;
-    width: 210px;
-    height: 55px;
+    width: 151px;
+    height: 40px;
     border-radius: 35px;
     background-color: #008FAD;
     border: 1px solid #008FAD;
@@ -61,16 +61,16 @@
 
 
     @media (min-width: 575px) {
-        width: 258px;
-        height: 76px;
-        font-size: 16px;
+        width: 200px;
+        height: 60px;
+        font-size: 14px;
     }
 
-    @media (min-width: 1024px) {
-        width: 332px;
-        height: 93px;
-        font-size: 18px;
-    }
+    // @media (min-width: 1024px) {
+    //     width: 250px;
+    //     height: 85px;
+    //     font-size: 14px;
+    // }
 
     &:hover {
         translate: 0 -3px;
