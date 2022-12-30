@@ -96,23 +96,31 @@ var Contacts = function Contacts() {
   }, "+38(050)-086-93-37")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "contacts__icons"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://t.me/Bogdanrehab",
+    target: "_blank",
     className: "contacts__icons--telega"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://www.facebook.com/Bogdan.rehab",
+    target: "_blank",
     className: "contacts__icons--facebook"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "viber: // add?%20number%20=380500869337",
+    href: "viber://add?number=380500869337",
+    target: "_blank",
     className: "contacts__icons--viber"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://www.youtube.com/channel/UCwmnffKo-6yY4u5SaXMB5eA",
+    target: "_blank",
     className: "contacts__icons--youtube"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "#",
+    href: "https://www.instagram.com/bogdan.rehab/",
+    target: "_blank",
     className: "contacts__icons--instagram"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_prime_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/",
+    target: "_blank"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_prime_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
     anketa: "\u0417\u0430\u043F\u043E\u0432\u043D\u0438\u0442\u0438 \u0430\u043D\u043A\u0435\u0442\u0443"
-  }));
+  })));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contacts);
@@ -211,9 +219,12 @@ var About = function About() {
     custom: 4,
     variants: animate,
     className: "about__btn"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/",
+    target: "_blank"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_prime_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     anketa: "\u0417\u0430\u043F\u043E\u0432\u043D\u0438\u0442\u0438 \u0430\u043D\u043A\u0435\u0442\u0443"
-  })));
+  }))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
@@ -279,7 +290,8 @@ var Anketa = function Anketa() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.a, {
     custom: 4,
     variants: animate,
-    href: "#",
+    href: "https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/",
+    target: "_blank",
     className: "anketa__button"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_prime_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     anketa: "\u0417\u0430\u043F\u043E\u0432\u043D\u0438\u0442\u0438 \u0430\u043D\u043A\u0435\u0442\u0443"
@@ -459,9 +471,11 @@ var Price = function Price() {
       price: pr.price
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       className: "price__btn"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+      href: "https://www.bogdan-rehab.com.ua/#/contacts"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_prime_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
       price: pr.btn
-    })));
+    }))));
   })));
 };
 
@@ -717,31 +731,31 @@ var Footer = function Footer() {
     className: "footer__icons"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://t.me/Bogdanrehab",
-    target: "blank",
+    target: "_blank",
     className: "footer__icons--telega"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_tb__WEBPACK_IMPORTED_MODULE_4__.TbBrandTelegram, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.facebook.com/Bogdan.rehab",
-    target: "blank",
+    target: "_blank",
     className: "footer__icons--facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiFacebook, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "viber://add?number=380500869337",
-    target: "blank",
+    target: "_blank",
     className: "footer__icons--viber"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_6__.FaViber, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.youtube.com/channel/UCwmnffKo-6yY4u5SaXMB5eA",
-    target: "blank",
+    target: "_blank",
     className: "footer__icons--facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiYoutube, {
     className: "react-icons"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.instagram.com/bogdan.rehab/",
-    target: "blank",
+    target: "_blank",
     className: "footer__icons--facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fi__WEBPACK_IMPORTED_MODULE_5__.FiInstagram, {
     className: "react-icons"
@@ -2770,4 +2784,4 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.0dd992de567a41a656dd.js.map
+//# sourceMappingURL=scripts.251a49cbafc4a617c138.js.map
