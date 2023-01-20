@@ -1,0 +1,30 @@
+
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: auto;
+    background-image: url(../img/logo-favicon.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50% 50%;
+
+    @keyframes myAnim {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        background-size: 10%;
+    }
+}

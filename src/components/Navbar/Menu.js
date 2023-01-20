@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './menu.scss'
 
 const Menu = ({items, active, setActive}) => {
@@ -11,7 +11,7 @@ const Menu = ({items, active, setActive}) => {
                 <ul>
                     {items.map(item =>
                         <li key={item.id} className='menu__content--li' onClick ={()=> setActive(false)}>
-                            <NavLink className='menu__content--a' to={item.to}>{item.value}</NavLink>
+                            <Link className='menu__content--a' to={item.to}>{item.value}</Link>
                         </li>
                     )}
                 </ul>

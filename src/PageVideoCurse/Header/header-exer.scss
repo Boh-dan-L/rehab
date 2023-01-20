@@ -16,22 +16,29 @@
         background-image: url(../../img/header-online.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-y: bottom;
         box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
 
         @media (min-width: 575px) {
             height: 50vh;
-            background-image: url(../../img/header-online-desctop.jpeg);
-            background-position-y: 50%;
+            background-image: url(../../img/header-exer-desc.png);
+            background-position-y: 75%;
         }
     }
 
     &__text {
         position: absolute;
-        width: 210px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px;
+        width: 50%;
+        min-height: 50%;
         z-index: 5;
+        // background-color: rgba(0, 0, 0, 0.61);
 
         @media (min-width: 575px) {
-            width: 100%;
+            width: 90%;
         }
 
         .title {
@@ -40,9 +47,14 @@
             color: #fff;
             text-transform: uppercase;
             line-height: 40px;
+            // text-shadow: 0 0 2px #060606, 0 0 2px #060606;
 
             @media (min-width: 575px) {
                 font-size: 30px;
+            }
+
+            @media (min-width: 575px) {
+                font-size: 40px;
             }
         }
     }

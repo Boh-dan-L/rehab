@@ -28,7 +28,7 @@ const Anketa = () => {
             <motion.div custom={3} variants={animate} className='anketa__title'>
                 <Title  anketa='Заповніть анкету для того, щоб отримати онлайн консультацію'/>
             </motion.div>
-            <motion.a custom={4} variants={animate} href= "#"  className='anketa__button'>
+            <motion.a custom={4} variants={animate} href= "https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/" target="_blank"  className='anketa__button'>
                 <Button  anketa='Заповнити анкету'/>
             </motion.a>
         </motion.div>

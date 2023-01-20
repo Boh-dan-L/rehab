@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require("path");
 
 let mode = 'development'
 if (process.env.NODE_ENV === 'production') {
@@ -16,8 +17,16 @@ module.exports = {
         filename: '[name].[contenthash].js',
         assetModuleFilename: "assets/[hash][ext][query]",
         clean: true,
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/',
     },
     devServer: {
+        historyApiFallback: true,
+        static: {
+            directory: path.join(__dirname, "/"),
+            watch: true
+        },
+        port: 8080,
         open: true,
         static: {
             directory: './src',
@@ -34,6 +43,14 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'
         }),
+        // new CopyPlugin({
+        //     patterns: [
+        //         {
+        //         from: 'dist/_redirects',
+        //         to: '.',
+        //         },
+        //     ],
+        // }),
         new HtmlWebpackPlugin({
             template: "./src/index.html"
         })],

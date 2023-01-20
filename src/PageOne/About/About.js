@@ -28,12 +28,12 @@ const About = () => {
             <motion.div custom={1} variants={animate} className='about__title'>
                 <Title about = 'Про себе'/>
             </motion.div>
-            <motion.img custom={1} variants={animate} className='about__img'/>
+            <motion.img  custom={1} variants={animate} className='about__img'/>
             <motion.div custom={1} variants={animate} className='about__subtitle'>
                 <SubTitle about='Дипломований реабілітолог зі стажем більше 10 років. З 2012 року почав займатися масажем, а вже з 2014 року практикую реабілітацію.Спеціалізуюся в лікувальному масажі від грудного віку до літнього, а також у реабілітації після інсульту, перелому хребта, спортивних травм та інших захворювань опорно-рухового апарату (ОРА). Попрацювавши в різних клініках Києва, я напрацював величезний досвід лікування ОРА, а також, на тлі цього, побудував власну методику лікування з комплексним підходом, що сприяє швидкому одужанню.'/>
             </motion.div>
-            <motion.div custom={4} variants={animate} className='about__btn'>
-                <Button anketa='Заповнити анкету'/>
+            <motion.div  custom={4} variants={animate} className='about__btn'>
+                <a href='https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/' target="_blank"><Button anketa='Заповнити анкету'/></a>
             </motion.div>
         </motion.div>
     )

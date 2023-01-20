@@ -1,7 +1,7 @@
 import React, { useState }  from "react";
 import './navbar.scss'
 import Menu from "./Menu";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -12,9 +12,9 @@ const Navbar = () => {
     return (
         <header>
             <div className='nav'>
-                <NavLink to="/" className="nav__link">
+                <Link to="/" className="nav__link">
                     <div className='nav__link--logo'/>
-                </NavLink>
+                </Link>
                 <div className='nav__burger' onClick={() => setMenuActive (!menuActive)}>
                     <span className={menuActive?'nav__burger--btn active':'nav__burger--btn'} />
                 </div>

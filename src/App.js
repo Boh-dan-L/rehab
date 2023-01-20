@@ -1,27 +1,50 @@
-import React, { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
-import Navbar from './components/Navbar/Navbar';
+import React, { useEffect, useState } from "react";
+import { BrowserRouter , Routes, Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import PageOne from "./PageOne/PageOne";
 import PageVideoCouse from "./PageVideoCurse/PageVideoCouse";
 import PagePrice from './PagePrice/PagePrice';
 import PageContacts from './PageContacts/PageContacts';
+import Layout from './components/Layout/Layout';
+import Loader from "./preloader/Loader";
 
+
+
+// const route = createBrowserRouter( createRoutesFromElements(
+// <Route path="/" element={<Layout/>}>
+//     <Route index element={<PageOne/>} />
+//     <Route path="/online" element = {<PageVideoCouse/>}/>
+//     <Route path="/services" element = {<PagePrice/>}/>
+//     <Route path="/contacts" element = {<PageContacts/>}/>
+// </Route>
+// ))
 
 const App = () => {
 
-    return (
-        <BrowserRouter>
+    const [loading, setLoading] = useState(false)
 
-                <Navbar/>
-                <Routes>
-                    <Route path="/" element={<PageOne/>} />
-                    <Route path="/online" element = {<PageVideoCouse/>}/>
-                    <Route path="/services" element = {<PagePrice/>}/>
-                    <Route path="/contacts" element = {<PageContacts/>}/>
-                </Routes>
-                <Footer/>
-        </BrowserRouter>
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        },3000)
+    },[])
+
+    return (
+        <>
+            {
+                loading ?
+                <Loader/>
+                :
+                    <Routes>
+                        <Route path="/" element={<Layout/>}>
+                            <Route index element={<PageOne/>} />
+                            <Route path="/online" element = {<PageVideoCouse/>}/>
+                            <Route path="/services" element = {<PagePrice/>}/>
+                            <Route path="/contacts" element = {<PageContacts/>}/>
+                        </Route>
+                    </Routes>
+            }
+        </>
     )
 
 };
