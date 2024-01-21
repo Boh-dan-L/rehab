@@ -586,7 +586,7 @@ var Price = function Price() {
   var price = [{
     id: 1,
     title: 'Реабілітація з виїздом на дом',
-    price: 'від 800 грн/60-70 хв.',
+    price: 'від 900 грн/60-70 хв.',
     btn: 'Записатись',
     detal: 'Детальніше',
     trg: 'На першому сеансі спочатку роблю первинний огляд і збір анамнезу. Після чого проводиться перше заняття. В залежності від проблематики, я використовую різні методики як масажу і маніпуляцій, так і вправ, тобто індивідуальний і комплексний підхід. Після першого сеансу визначається тактика та можливі варіанти реабілітації. Також даю рекомендації для подальшої підтримки здоровʼя.'
@@ -599,11 +599,53 @@ var Price = function Price() {
     trg: 'Ця послуга ідеально підходить тим хто травмувався і потребує реабілітації, але не має можливості працювати безпосередньо з реабілітологом. На сеансі проводиться збір анамнезу та цілей реабілітації. Я відповідаю на всі Ваші питання і даю рекомендації. Після цього формую програму реабілітації з вправами  на 2 тижні. ВСІ ГРОШІ З ЦІЄЇ ПОСЛУГИ ЙДУТЬ НА ЗСУ!!! ВІЙСЬКОВИМ БЕЗКОШТОВНО!!!'
   }, {
     id: 3,
-    title: 'Онлайн реабілітація',
+    title: 'Побудова програми реабілітації',
     price: '300 грн',
     btn: 'Записатись',
     detal: 'Детальніше',
     trg: 'Реабілітація вдома онлайн має багато переваг. По-перше, це зручніше для пацієнта, оскільки йому не потрібно їздити на прийом і назад. По-друге, це доступніше, ніж традиційні послуги амбулаторної реабілітації. По-третє, це дозволяє пацієнту отримувати терапію в приватному житті власного дому, або з любої точки світу. Нарешті, це може забезпечити більш гнучкий графік для пацієнта.'
+  }, {
+    id: 4,
+    title: 'Перший сеанс',
+    price: '400 грн/45 хв.',
+    btn: 'Записатись',
+    detal: 'Детальніше',
+    trg: 'Маєте дискомфорт або біль, але не знаєте на яку послугу записатись? Вибирай цю послугу. На сеансі я проводжу огляд та збираю всю історію хвороби, тестую та проводжу лікувальні заходи. Оцінюю оптимальну тактику лікування та даю рекомендації.'
+  }, {
+    id: 5,
+    title: 'Дитячий масаж',
+    price: '350 грн/30 хв.',
+    btn: 'Записатись',
+    detal: 'Детальніше',
+    trg: 'Дитячий масаж дуже корисний дітям дошкільного та шкільного віку, які мають певні проблеми з поставою. Масаж можна виконувати як в лікуванні так і в профілактиці захворювань опорно-рухового апарату.'
+  }, {
+    id: 6,
+    title: 'Масаж + гімнастика 0-1 року',
+    price: '350 грн/30 хв.',
+    btn: 'Записатись',
+    detal: 'Детальніше',
+    trg: 'Масаж та гімнастика в грудному віці сприяє нормальному фізичному розвитку дитини. Також такі сеанси призначаються при різних проблемах опорно-рухового апарату та патологіях (дисплазія, кривошия, гіпертонус, відставання в розвитку тощо). На сеансі Ви отримаєте також рекомендації як займатись з дитиною вдома для більшого результату від курсу.'
+  }, {
+    id: 7,
+    title: 'Лікувальний масаж 30 хв',
+    price: '400 грн/30 хв.',
+    btn: 'Записатись',
+    detal: 'Детальніше',
+    trg: "Лікувальний масаж - це не ліки, а гостра необхідність для кожного, хто піклується про своє здоров'я.  Процедури виконуються у різний спосіб, які вибираються виходячи з потреб пацієнта.  Сеанс лікувального масажу може виконуватися як самостійна форма терапії, і як додаткова процедура, що використовується при комплексному лікуванні."
+  }, {
+    id: 8,
+    title: 'Лікувальний масаж 60 хв',
+    price: '800 грн/60 хв.',
+    btn: 'Записатись',
+    detal: 'Детальніше',
+    trg: "Лікувальний масаж - це не ліки, а гостра необхідність для кожного, хто піклується про своє здоров'я.  Процедури виконуються у різний спосіб, які вибираються виходячи з потреб пацієнта.  Сеанс лікувального масажу може виконуватися як самостійна форма терапії, і як додаткова процедура, що використовується при комплексному лікуванні."
+  }, {
+    id: 9,
+    title: 'Реабілітація',
+    price: '800 грн/60 хв.',
+    btn: 'Записатись',
+    detal: 'Детальніше',
+    trg: "Реабілітація - це комплекс лікувальних та профілактичних заходів, який спрямований на максимально можливе відновлення втрачених здібностей пацієнта після різних захворювань.На першому сеансі спочатку роблю первинний огляд і збір анамнезу. Після чого проводиться перше заняття. В залежності від проблематики, я використовую різні методики як масажу і маніпуляцій, так і вправ, тобто індивідуальний і комплексний підхід. Після першого сеансу визначається тактика та можливі варіанти реабілітації. Також даю рекомендації для подальшої підтримки здоровʼя."
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "price"
@@ -1230,7 +1272,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var Loader = function Loader() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
-    className: "loading",
+    className: "loading"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
+    className: "loading__image",
     animate: {
       scale: [2, 1, 2, 1, 2] // rotate: [0, 0, 180, 180, 0],
       // borderRadius: ["0%", "0%", "50%", "50%", "0%"]
@@ -1243,7 +1287,7 @@ var Loader = function Loader() {
       repeat: Infinity,
       repeatDelay: 1
     }
-  });
+  }));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Loader);
@@ -1468,12 +1512,24 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/rehabHome.png */ "./src/img/rehabHome.png"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/onlineConsul.png */ "./src/img/onlineConsul.png"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/onlineRehab.png */ "./src/img/onlineRehab.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/first-seans.png */ "./src/img/first-seans.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/kids-mass.png */ "./src/img/kids-mass.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/kids-massage.png */ "./src/img/kids-massage.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/massage30.png */ "./src/img/massage30.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/massage60.png */ "./src/img/massage60.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/rehab-kab.png */ "./src/img/rehab-kab.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
+var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
+var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".price {\n  padding-top: 20px;\n}\n.price ul {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n}\n@media (min-width: 576px) {\n  .price ul {\n    flex-wrap: wrap;\n  }\n}\n@media (min-width: 1024px) {\n  .price ul {\n    justify-content: space-around;\n  }\n}\n.price li:first-child {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(2) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(3) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price__li {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 281px;\n  min-height: 160px;\n  margin-bottom: 30px;\n}\n@media (min-width: 540px) {\n  .price__li {\n    width: 382px;\n    min-height: 227px;\n    justify-content: space-around;\n    padding: 5px 0;\n  }\n}\n@media (min-width: 764px) {\n  .price__li {\n    margin: 15px 15px;\n  }\n}\n.price__title {\n  margin-top: 15px;\n}\n.price__title, .price__subtitle {\n  color: white;\n  margin-bottom: 7px;\n}\n.price__title .title, .price__subtitle .title {\n  font-weight: 700;\n  font-size: 15px;\n  color: #fff;\n}\n@media (min-width: 540px) {\n  .price__title .title, .price__subtitle .title {\n    font-size: 19px;\n  }\n}\n.price__subtitle .title {\n  font-size: 18px;\n}\n@media (min-width: 540px) {\n  .price__subtitle .title {\n    font-size: 21px;\n  }\n}\n.price__btn .button-prime {\n  width: 121px;\n  height: 35px;\n}\n@media (min-width: 576px) {\n  .price__btn .button-prime {\n    width: 151px;\n    height: 45px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/PagePrice/Price/price.scss"],"names":[],"mappings":"AAGA;EACI,iBAAA;AAFJ;AAII;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,eAAA;AAFR;AAKQ;EAPJ;IAQQ,eAAA;EAFV;AACF;AAIQ;EAXJ;IAYQ,6BAAA;EADV;AACF;AAII;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAFR;AASI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAPR;AAcI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAZR;AAmBI;EAEI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;AAlBR;AAoBQ;EAVJ;IAWQ,YAAA;IACA,iBAAA;IACA,6BAAA;IACA,cAAA;EAjBV;AACF;AAoBQ;EAlBJ;IAmBQ,iBAAA;EAjBV;AACF;AAoBI;EACI,gBAAA;AAlBR;AAqBI;EACI,YAAA;EACA,kBAAA;AAnBR;AAqBQ;EACI,gBAAA;EACA,eAAA;EACA,WAAA;AAnBZ;AAqBY;EALJ;IAMQ,eAAA;EAlBd;AACF;AAuBQ;EACI,eAAA;AArBZ;AAuBY;EAHJ;IAIQ,eAAA;EApBd;AACF;AA0BQ;EACI,YAAA;EACA,YAAA;AAxBZ;AA0BY;EAJJ;IAKQ,YAAA;IACA,YAAA;EAvBd;AACF","sourcesContent":["\n\n\n.price {\n    padding-top: 20px;\n\n    ul {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-wrap: wrap;\n        // position: relative;\n\n        @media (min-width: 576px) {\n            flex-wrap: wrap;\n        }\n\n        @media (min-width: 1024px) {\n            justify-content: space-around;\n        }\n    }\n\n    li:first-child {\n        background: url(../../img/rehabHome.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n\n    li:nth-child(2) {\n        background: url(../../img/onlineConsul.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n\n    li:nth-child(3) {\n        background: url(../../img/onlineRehab.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n\n    &__li {\n        // position: relative;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n        width: 281px;\n        min-height: 160px;\n        margin-bottom: 30px;\n\n        @media (min-width: 540px) {\n            width: 382px;\n            min-height: 227px;\n            justify-content: space-around;\n            padding: 5px 0;\n        }\n\n\n        @media (min-width: 764px) {\n            margin: 15px 15px;\n        }\n    }\n\n    &__title {\n        margin-top: 15px;\n    }\n\n    &__title, &__subtitle {\n        color: white;\n        margin-bottom: 7px;\n\n        .title {\n            font-weight: 700;\n            font-size: 15px;\n            color: #fff;\n\n            @media (min-width: 540px) {\n                font-size: 19px;\n            }\n        }\n    }\n\n    &__subtitle {\n        .title {\n            font-size: 18px;\n\n            @media (min-width: 540px) {\n                font-size: 21px;\n            }\n        }\n    }\n\n    &__btn {\n\n        .button-prime  {\n            width: 121px;\n            height: 35px;\n\n            @media (min-width: 576px) {\n                width: 151px;\n                height: 45px;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".price {\n  padding-top: 20px;\n}\n.price ul {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n}\n@media (min-width: 576px) {\n  .price ul {\n    flex-wrap: wrap;\n  }\n}\n@media (min-width: 1024px) {\n  .price ul {\n    justify-content: space-around;\n  }\n}\n.price li:first-child {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(2) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(3) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(4) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(5) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(6) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(7) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(8) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price li:nth-child(9) {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n.price__li {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 281px;\n  min-height: 160px;\n  margin-bottom: 30px;\n}\n@media (min-width: 540px) {\n  .price__li {\n    width: 382px;\n    min-height: 227px;\n    justify-content: space-around;\n    padding: 5px 0;\n  }\n}\n@media (min-width: 764px) {\n  .price__li {\n    margin: 15px 15px;\n  }\n}\n.price__title {\n  margin-top: 15px;\n}\n.price__title, .price__subtitle {\n  color: white;\n  margin-bottom: 7px;\n}\n.price__title .title, .price__subtitle .title {\n  font-weight: 700;\n  font-size: 15px;\n  color: #fff;\n}\n@media (min-width: 540px) {\n  .price__title .title, .price__subtitle .title {\n    font-size: 19px;\n  }\n}\n.price__subtitle .title {\n  font-size: 18px;\n}\n@media (min-width: 540px) {\n  .price__subtitle .title {\n    font-size: 21px;\n  }\n}\n.price__btn .button-prime {\n  width: 121px;\n  height: 35px;\n}\n@media (min-width: 576px) {\n  .price__btn .button-prime {\n    width: 151px;\n    height: 45px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/PagePrice/Price/price.scss"],"names":[],"mappings":"AAGA;EACI,iBAAA;AAFJ;AAII;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,eAAA;AAFR;AAKQ;EAPJ;IAQQ,eAAA;EAFV;AACF;AAIQ;EAXJ;IAYQ,6BAAA;EADV;AACF;AAII;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAFR;AASI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAPR;AAcI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAZR;AAkBI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAhBR;AAsBI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AApBR;AA0BI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAxBR;AA8BI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AA5BR;AAkCI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AAhCR;AAsCI;EACI,mDAAA;EACA,4BAAA;EACA,sBAAA;AApCR;AA2CI;EAEI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;AA1CR;AA4CQ;EAVJ;IAWQ,YAAA;IACA,iBAAA;IACA,6BAAA;IACA,cAAA;EAzCV;AACF;AA4CQ;EAlBJ;IAmBQ,iBAAA;EAzCV;AACF;AA4CI;EACI,gBAAA;AA1CR;AA6CI;EACI,YAAA;EACA,kBAAA;AA3CR;AA6CQ;EACI,gBAAA;EACA,eAAA;EACA,WAAA;AA3CZ;AA6CY;EALJ;IAMQ,eAAA;EA1Cd;AACF;AA+CQ;EACI,eAAA;AA7CZ;AA+CY;EAHJ;IAIQ,eAAA;EA5Cd;AACF;AAkDQ;EACI,YAAA;EACA,YAAA;AAhDZ;AAkDY;EAJJ;IAKQ,YAAA;IACA,YAAA;EA/Cd;AACF","sourcesContent":["\n\n\n.price {\n    padding-top: 20px;\n\n    ul {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-wrap: wrap;\n        // position: relative;\n\n        @media (min-width: 576px) {\n            flex-wrap: wrap;\n        }\n\n        @media (min-width: 1024px) {\n            justify-content: space-around;\n        }\n    }\n\n    li:first-child {\n        background: url(../../img/rehabHome.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n\n    li:nth-child(2) {\n        background: url(../../img/onlineConsul.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n\n    li:nth-child(3) {\n        background: url(../../img/onlineRehab.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n    li:nth-child(4) {\n        background: url(../../img/first-seans.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n    li:nth-child(5) {\n        background: url(../../img/kids-mass.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n    li:nth-child(6) {\n        background: url(../../img/kids-massage.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n    li:nth-child(7) {\n        background: url(../../img/massage30.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n    li:nth-child(8) {\n        background: url(../../img/massage60.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n    li:nth-child(9) {\n        background: url(../../img/rehab-kab.png);\n        background-repeat: no-repeat;\n        background-size: cover;\n\n        // @media (min-width: 764px) {\n        //     margin-left: 15px;\n        // }\n    }\n\n    &__li {\n        // position: relative;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        flex-direction: column;\n        width: 281px;\n        min-height: 160px;\n        margin-bottom: 30px;\n\n        @media (min-width: 540px) {\n            width: 382px;\n            min-height: 227px;\n            justify-content: space-around;\n            padding: 5px 0;\n        }\n\n\n        @media (min-width: 764px) {\n            margin: 15px 15px;\n        }\n    }\n\n    &__title {\n        margin-top: 15px;\n    }\n\n    &__title, &__subtitle {\n        color: white;\n        margin-bottom: 7px;\n\n        .title {\n            font-weight: 700;\n            font-size: 15px;\n            color: #fff;\n\n            @media (min-width: 540px) {\n                font-size: 19px;\n            }\n        }\n    }\n\n    &__subtitle {\n        .title {\n            font-size: 18px;\n\n            @media (min-width: 540px) {\n                font-size: 21px;\n            }\n        }\n    }\n\n    &__btn {\n\n        .button-prime  {\n            width: 121px;\n            height: 35px;\n\n            @media (min-width: 576px) {\n                width: 151px;\n                height: 45px;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1643,7 +1699,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".footer {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n  height: 172px;\n  background: #008FAD;\n  box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);\n  margin-top: 171px;\n}\n@media (min-width: 1024px) {\n  .footer {\n    height: 224px;\n  }\n}\n.footer__title {\n  margin-top: 25px;\n}\n.footer__title .title {\n  color: #fff;\n}\n@media (min-width: 1024px) {\n  .footer__title .title {\n    font-size: 24px;\n  }\n}\n.footer__tell {\n  margin: 15px 0;\n}\n@media (min-width: 1024px) {\n  .footer__tell {\n    margin: 30px 0;\n  }\n}\n.footer__tell--namb {\n  display: block;\n  font-family: \"Montserrat\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 14px;\n  line-height: 190.9%;\n  text-align: center;\n  letter-spacing: 0.02em;\n  text-decoration: none;\n  color: #fff;\n  margin-left: 3px;\n}\n@media (min-width: 1024px) {\n  .footer__tell--namb {\n    font-size: 18px;\n  }\n}\n.footer__icons {\n  display: flex;\n  justify-content: center;\n}\n.footer__icons--telega, .footer__icons--facebook, .footer__icons--viber {\n  text-decoration: none;\n  display: inline-block;\n  color: #fff;\n  transition: 0.3s;\n}\n.footer__icons--telega:hover, .footer__icons--facebook:hover, .footer__icons--viber:hover {\n  translate: 0 -3px;\n}\n.footer__icons--telega {\n  margin-left: 7px;\n}\n.footer__icons--facebook {\n  margin-left: 20px;\n}\n.footer__icons--viber {\n  margin-left: 20px;\n}\n\n.phone__icon {\n  width: 12px;\n  height: 12px;\n  margin-right: 4px;\n}\n@media (min-width: 1024px) {\n  .phone__icon {\n    width: 16px;\n    height: 16px;\n    margin-right: 6px;\n  }\n}\n\n.react-icons {\n  width: 20px;\n  height: 20px;\n}\n@media (min-width: 1024px) {\n  .react-icons {\n    width: 30px;\n    height: 30px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/components/Footer/footer.scss"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,WAAA;EACA,aAAA;EACA,mBAAA;EACA,4CAAA;EACA,iBAAA;AADJ;AAGI;EAVJ;IAWQ,aAAA;EAAN;AACF;AAEI;EACI,gBAAA;AAAR;AAEQ;EACI,WAAA;AAAZ;AAGQ;EAJA;IAKI,eAAA;EAAV;AACF;AAII;EACI,cAAA;AAFR;AAIQ;EAHJ;IAIQ,cAAA;EADV;AACF;AAIQ;EACI,cAAA;EACA,yBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,mBAAA;EACA,kBAAA;EACA,sBAAA;EACA,qBAAA;EACA,WAAA;EACA,gBAAA;AAFZ;AAIY;EAbJ;IAcQ,eAAA;EADd;AACF;AAKI;EACI,aAAA;EACA,uBAAA;AAHR;AAMQ;EACI,qBAAA;EACA,qBAAA;EACA,WAAA;EACA,gBAAA;AAJZ;AAOQ;EACI,iBAAA;AALZ;AAQQ;EACI,gBAAA;AANZ;AASQ;EACI,iBAAA;AAPZ;AAUQ;EACI,iBAAA;AARZ;;AAcA;EACI,WAAA;EACA,YAAA;EACA,iBAAA;AAXJ;AAaI;EALJ;IAMQ,WAAA;IACA,YAAA;IACA,iBAAA;EAVN;AACF;;AAaA;EACI,WAAA;EACA,YAAA;AAVJ;AAYI;EAJJ;IAKQ,WAAA;IACA,YAAA;EATN;AACF","sourcesContent":["\n\n.footer{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 100%;\n    height: 172px;\n    background: #008FAD;\n    box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);\n    margin-top: 171px;\n\n    @media (min-width: 1024px) {\n        height: 224px;\n    }\n\n    &__title {\n        margin-top: 25px;\n\n        .title {\n            color: #fff;\n\n\n        @media (min-width: 1024px) {\n            font-size: 24px;\n        }\n        }\n    }\n\n    &__tell {\n        margin: 15px 0;\n\n        @media (min-width: 1024px) {\n            margin: 30px 0;\n        }\n\n\n        &--namb{\n            display: block;\n            font-family: 'Montserrat';\n            font-style: normal;\n            font-weight: 700;\n            font-size: 14px;\n            line-height: 190.9%;\n            text-align: center;\n            letter-spacing: 0.02em;\n            text-decoration: none;\n            color: #fff;\n            margin-left: 3px;\n\n            @media (min-width: 1024px) {\n                font-size: 18px;\n            }\n        }\n    }\n\n    &__icons {\n        display: flex;\n        justify-content: center;\n\n\n        &--telega, &--facebook, &--viber {\n            text-decoration: none;\n            display: inline-block;\n            color: #fff;\n            transition: 0.3s;\n        }\n\n        &--telega:hover, &--facebook:hover, &--viber:hover {\n            translate: 0 -3px;\n        }\n\n        &--telega {\n            margin-left: 7px;\n        }\n\n        &--facebook {\n            margin-left: 20px;\n        }\n\n        &--viber {\n            margin-left: 20px;\n        }\n\n    }\n}\n\n.phone__icon {\n    width: 12px;\n    height: 12px;\n    margin-right: 4px;\n\n    @media (min-width: 1024px) {\n        width: 16px;\n        height: 16px;\n        margin-right: 6px;\n    }\n}\n\n.react-icons {\n    width: 20px;\n    height: 20px;\n\n    @media (min-width: 1024px) {\n        width: 30px;\n        height: 30px;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".footer {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n  height: 172px;\n  background: #008FAD;\n  box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);\n  margin-top: 57vh;\n}\n@media (min-width: 1024px) {\n  .footer {\n    height: 224px;\n  }\n}\n.footer__title {\n  margin-top: 25px;\n}\n.footer__title .title {\n  color: #fff;\n}\n@media (min-width: 1024px) {\n  .footer__title .title {\n    font-size: 24px;\n  }\n}\n.footer__tell {\n  margin: 15px 0;\n}\n@media (min-width: 1024px) {\n  .footer__tell {\n    margin: 30px 0;\n  }\n}\n.footer__tell--namb {\n  display: block;\n  font-family: \"Montserrat\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 14px;\n  line-height: 190.9%;\n  text-align: center;\n  letter-spacing: 0.02em;\n  text-decoration: none;\n  color: #fff;\n  margin-left: 3px;\n}\n@media (min-width: 1024px) {\n  .footer__tell--namb {\n    font-size: 18px;\n  }\n}\n.footer__icons {\n  display: flex;\n  justify-content: center;\n}\n.footer__icons--telega, .footer__icons--facebook, .footer__icons--viber {\n  text-decoration: none;\n  display: inline-block;\n  color: #fff;\n  transition: 0.3s;\n}\n.footer__icons--telega:hover, .footer__icons--facebook:hover, .footer__icons--viber:hover {\n  translate: 0 -3px;\n}\n.footer__icons--telega {\n  margin-left: 7px;\n}\n.footer__icons--facebook {\n  margin-left: 20px;\n}\n.footer__icons--viber {\n  margin-left: 20px;\n}\n\n.phone__icon {\n  width: 12px;\n  height: 12px;\n  margin-right: 4px;\n}\n@media (min-width: 1024px) {\n  .phone__icon {\n    width: 16px;\n    height: 16px;\n    margin-right: 6px;\n  }\n}\n\n.react-icons {\n  width: 20px;\n  height: 20px;\n}\n@media (min-width: 1024px) {\n  .react-icons {\n    width: 30px;\n    height: 30px;\n  }\n}", "",{"version":3,"sources":["webpack://./src/components/Footer/footer.scss"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,WAAA;EACA,aAAA;EACA,mBAAA;EACA,4CAAA;EACA,gBAAA;AADJ;AAGI;EAVJ;IAWQ,aAAA;EAAN;AACF;AAEI;EACI,gBAAA;AAAR;AAEQ;EACI,WAAA;AAAZ;AAGQ;EAJA;IAKI,eAAA;EAAV;AACF;AAII;EACI,cAAA;AAFR;AAIQ;EAHJ;IAIQ,cAAA;EADV;AACF;AAIQ;EACI,cAAA;EACA,yBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,mBAAA;EACA,kBAAA;EACA,sBAAA;EACA,qBAAA;EACA,WAAA;EACA,gBAAA;AAFZ;AAIY;EAbJ;IAcQ,eAAA;EADd;AACF;AAKI;EACI,aAAA;EACA,uBAAA;AAHR;AAMQ;EACI,qBAAA;EACA,qBAAA;EACA,WAAA;EACA,gBAAA;AAJZ;AAOQ;EACI,iBAAA;AALZ;AAQQ;EACI,gBAAA;AANZ;AASQ;EACI,iBAAA;AAPZ;AAUQ;EACI,iBAAA;AARZ;;AAcA;EACI,WAAA;EACA,YAAA;EACA,iBAAA;AAXJ;AAaI;EALJ;IAMQ,WAAA;IACA,YAAA;IACA,iBAAA;EAVN;AACF;;AAaA;EACI,WAAA;EACA,YAAA;AAVJ;AAYI;EAJJ;IAKQ,WAAA;IACA,YAAA;EATN;AACF","sourcesContent":["\n\n.footer{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 100%;\n    height: 172px;\n    background: #008FAD;\n    box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);\n    margin-top: 57vh;\n\n    @media (min-width: 1024px) {\n        height: 224px;\n    }\n\n    &__title {\n        margin-top: 25px;\n\n        .title {\n            color: #fff;\n\n\n        @media (min-width: 1024px) {\n            font-size: 24px;\n        }\n        }\n    }\n\n    &__tell {\n        margin: 15px 0;\n\n        @media (min-width: 1024px) {\n            margin: 30px 0;\n        }\n\n\n        &--namb{\n            display: block;\n            font-family: 'Montserrat';\n            font-style: normal;\n            font-weight: 700;\n            font-size: 14px;\n            line-height: 190.9%;\n            text-align: center;\n            letter-spacing: 0.02em;\n            text-decoration: none;\n            color: #fff;\n            margin-left: 3px;\n\n            @media (min-width: 1024px) {\n                font-size: 18px;\n            }\n        }\n    }\n\n    &__icons {\n        display: flex;\n        justify-content: center;\n\n\n        &--telega, &--facebook, &--viber {\n            text-decoration: none;\n            display: inline-block;\n            color: #fff;\n            transition: 0.3s;\n        }\n\n        &--telega:hover, &--facebook:hover, &--viber:hover {\n            translate: 0 -3px;\n        }\n\n        &--telega {\n            margin-left: 7px;\n        }\n\n        &--facebook {\n            margin-left: 20px;\n        }\n\n        &--viber {\n            margin-left: 20px;\n        }\n\n    }\n}\n\n.phone__icon {\n    width: 12px;\n    height: 12px;\n    margin-right: 4px;\n\n    @media (min-width: 1024px) {\n        width: 16px;\n        height: 16px;\n        margin-right: 6px;\n    }\n}\n\n.react-icons {\n    width: 20px;\n    height: 20px;\n\n    @media (min-width: 1024px) {\n        width: 30px;\n        height: 30px;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1783,7 +1839,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".loading {\n  width: 100vw;\n  height: 100vh;\n  top: 0;\n  left: auto;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: 20%;\n  background-position: 50% 50%;\n}\n@keyframes myAnim {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.1);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n@media (min-width: 1024px) {\n  .loading {\n    background-size: 10%;\n  }\n}", "",{"version":3,"sources":["webpack://./src/preloader/loader.scss"],"names":[],"mappings":"AAEA;EACI,YAAA;EACA,aAAA;EACA,MAAA;EACA,UAAA;EACA,yDAAA;EACA,4BAAA;EACA,oBAAA;EACA,4BAAA;AADJ;AAGI;EACI;IACI,mBAAA;EADV;EAIM;IACI,qBAAA;EAFV;EAKM;IACI,mBAAA;EAHV;AACF;AAMI;EAxBJ;IAyBQ,oBAAA;EAHN;AACF","sourcesContent":["\n\n.loading {\n    width: 100vw;\n    height: 100vh;\n    top: 0;\n    left: auto;\n    background-image: url(../img/logo-favicon.png);\n    background-repeat: no-repeat;\n    background-size: 20%;\n    background-position: 50% 50%;\n\n    @keyframes myAnim {\n        0% {\n            transform: scale(1);\n        }\n\n        50% {\n            transform: scale(1.1);\n        }\n\n        100% {\n            transform: scale(1);\n        }\n    }\n\n    @media (min-width: 1024px) {\n        background-size: 10%;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".loading {\n  position: absolute;\n  background-color: white;\n  width: 100vw;\n  height: 100vh;\n  z-index: 10000;\n  overflow: hidden;\n}\n\n.loading__image {\n  width: 100vw;\n  height: 100vh;\n  top: 0;\n  left: auto;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-size: 20%;\n  background-position: 50% 50%;\n  z-index: 100000;\n}\n@keyframes myAnim {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.1);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n@media (min-width: 1024px) {\n  .loading__image {\n    background-size: 10%;\n  }\n}", "",{"version":3,"sources":["webpack://./src/preloader/loader.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,uBAAA;EACA,YAAA;EACA,aAAA;EACA,cAAA;EACA,gBAAA;AACJ;;AAEA;EACI,YAAA;EACA,aAAA;EACA,MAAA;EACA,UAAA;EACA,yDAAA;EACA,4BAAA;EACA,oBAAA;EACA,4BAAA;EACA,eAAA;AACJ;AACI;EACI;IACI,mBAAA;EACV;EAEM;IACI,qBAAA;EAAV;EAGM;IACI,mBAAA;EADV;AACF;AAII;EAzBJ;IA0BQ,oBAAA;EADN;AACF","sourcesContent":[".loading {\n    position: absolute;\n    background-color: white;\n    width: 100vw;\n    height: 100vh;\n    z-index: 10000;\n    overflow: hidden;\n}\n\n.loading__image {\n    width: 100vw;\n    height: 100vh;\n    top: 0;\n    left: auto;\n    background-image: url(../img/logo-favicon.png);\n    background-repeat: no-repeat;\n    background-size: 20%;\n    background-position: 50% 50%;\n    z-index: 100000;\n\n    @keyframes myAnim {\n        0% {\n            transform: scale(1);\n        }\n\n        50% {\n            transform: scale(1.1);\n        }\n\n        100% {\n            transform: scale(1);\n        }\n    }\n\n    @media (min-width: 1024px) {\n        background-size: 10%;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2942,6 +2998,16 @@ module.exports = __webpack_require__.p + "assets/e21fdd88373c3c2e5be8.svg";
 
 /***/ }),
 
+/***/ "./src/img/first-seans.png":
+/*!*********************************!*\
+  !*** ./src/img/first-seans.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/22a16daea26fcc0a246f.png";
+
+/***/ }),
+
 /***/ "./src/img/header-exer-desc.png":
 /*!**************************************!*\
   !*** ./src/img/header-exer-desc.png ***!
@@ -2982,6 +3048,26 @@ module.exports = __webpack_require__.p + "assets/5b3a03f85d2741db18a8.svg";
 
 /***/ }),
 
+/***/ "./src/img/kids-mass.png":
+/*!*******************************!*\
+  !*** ./src/img/kids-mass.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/b483847f02b7fc899169.png";
+
+/***/ }),
+
+/***/ "./src/img/kids-massage.png":
+/*!**********************************!*\
+  !*** ./src/img/kids-massage.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/cb393f8064be8c7559fe.png";
+
+/***/ }),
+
 /***/ "./src/img/logo-favicon.png":
 /*!**********************************!*\
   !*** ./src/img/logo-favicon.png ***!
@@ -2989,6 +3075,26 @@ module.exports = __webpack_require__.p + "assets/5b3a03f85d2741db18a8.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/118ebce631b99aa2a5f1.png";
+
+/***/ }),
+
+/***/ "./src/img/massage30.png":
+/*!*******************************!*\
+  !*** ./src/img/massage30.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/ffac6395d82279aa3990.png";
+
+/***/ }),
+
+/***/ "./src/img/massage60.png":
+/*!*******************************!*\
+  !*** ./src/img/massage60.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/b0a8c6536d41b5459952.png";
 
 /***/ }),
 
@@ -3029,6 +3135,16 @@ module.exports = __webpack_require__.p + "assets/7206372d29559efa8dd6.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/ccd1746395ea76745b65.png";
+
+/***/ }),
+
+/***/ "./src/img/rehab-kab.png":
+/*!*******************************!*\
+  !*** ./src/img/rehab-kab.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/1e9bc07feb5f106d735f.png";
 
 /***/ }),
 
@@ -3259,4 +3375,4 @@ module.exports = __webpack_require__.p + "assets/96e99ceb068430de8c2f.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.a3a8291f7b1a24117806.js.map
+//# sourceMappingURL=scripts.fc0e8205dd2db4e5b5e0.js.map
