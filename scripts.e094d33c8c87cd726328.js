@@ -174,7 +174,7 @@ var Contacts = function Contacts() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.a, {
     custom: 4,
     variants: animate,
-    href: "https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/",
+    href: "https://form.jotform.com/242576521556057",
     target: "_blank"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_Button__WEBPACK_IMPORTED_MODULE_2__["default"], null, "\u0417\u0430\u043F\u043E\u0432\u043D\u0438\u0442\u0438 \u0430\u043D\u043A\u0435\u0442\u0443")));
 };
@@ -272,7 +272,7 @@ var About = function About() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Text_SubTitle_SubTitle__WEBPACK_IMPORTED_MODULE_2__["default"], null, "\u0414\u0438\u043F\u043B\u043E\u043C\u043E\u0432\u0430\u043D\u0438\u0439 \u0440\u0435\u0430\u0431\u0456\u043B\u0456\u0442\u043E\u043B\u043E\u0433 \u0437\u0456 \u0441\u0442\u0430\u0436\u0435\u043C \u0431\u0456\u043B\u044C\u0448\u0435 10 \u0440\u043E\u043A\u0456\u0432. \u0421\u043F\u0435\u0446\u0456\u0430\u043B\u0456\u0437\u0443\u044E\u0441\u044F \u0432 \u043B\u0456\u043A\u0443\u0432\u0430\u043B\u044C\u043D\u043E\u043C\u0443 \u043C\u0430\u0441\u0430\u0436\u0456 \u0432\u0456\u0434 \u0433\u0440\u0443\u0434\u043D\u043E\u0433\u043E \u0432\u0456\u043A\u0443 \u0434\u043E \u043B\u0456\u0442\u043D\u044C\u043E\u0433\u043E, \u0430 \u0442\u0430\u043A\u043E\u0436 \u0443 \u0440\u0435\u0430\u0431\u0456\u043B\u0456\u0442\u0430\u0446\u0456\u0457 \u043F\u0456\u0441\u043B\u044F \u0456\u043D\u0441\u0443\u043B\u044C\u0442\u0443, \u043F\u0435\u0440\u0435\u043B\u043E\u043C\u0443 \u0445\u0440\u0435\u0431\u0442\u0430, \u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u0438\u0445 \u0442\u0440\u0430\u0432\u043C \u0442\u0430 \u0456\u043D\u0448\u0438\u0445 \u0437\u0430\u0445\u0432\u043E\u0440\u044E\u0432\u0430\u043D\u044C \u043E\u043F\u043E\u0440\u043D\u043E-\u0440\u0443\u0445\u043E\u0432\u043E\u0433\u043E \u0430\u043F\u0430\u0440\u0430\u0442\u0443 (\u041E\u0420\u0410). \u0417\u0430 \u0440\u043E\u043A\u0438 \u0440\u043E\u0431\u043E\u0442\u0438 \u0440\u0435\u0430\u0431\u0456\u043B\u0456\u0442\u043E\u043B\u043E\u0433\u043E\u043C, \u043D\u0430\u043F\u0440\u0430\u0446\u044E\u0432\u0430\u0432 \u0432\u0435\u043B\u0438\u0447\u0435\u0437\u043D\u0438\u0439 \u0434\u043E\u0441\u0432\u0456\u0434 \u043B\u0456\u043A\u0443\u0432\u0430\u043D\u043D\u044F \u041E\u0420\u0410, \u0442\u0430 \u043F\u043E\u0431\u0443\u0434\u0443\u0432\u0430\u0432 \u0432\u043B\u0430\u0441\u043D\u0443 \u043C\u0435\u0442\u043E\u0434\u0438\u043A\u0443 \u043B\u0456\u043A\u0443\u0432\u0430\u043D\u043D\u044F \u0437 \u043A\u043E\u043C\u043F\u043B\u0435\u043A\u0441\u043D\u0438\u043C \u043F\u0456\u0434\u0445\u043E\u0434\u043E\u043C, \u0449\u043E \u0441\u043F\u0440\u0438\u044F\u0454 \u0448\u0432\u0438\u0434\u043A\u043E\u043C\u0443 \u043E\u0434\u0443\u0436\u0430\u043D\u043D\u044E.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
     className: "about__btn"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://docs.google.com/forms/d/1PaT6OiPLtKgrAvfYbDyfBEXfSbQ0tJM76UZ8D6usu60/",
+    href: "https://form.jotform.com/242576521556057",
     target: "_blank"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null, "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u0438\u0441\u044C")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.img, {
     custom: 1,
@@ -4641,4 +4641,4 @@ module.exports = __webpack_require__.p + "assets/bf67380aeaff5de97255.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=scripts.4793bb4cd553147b87ff.js.map
+//# sourceMappingURL=scripts.e094d33c8c87cd726328.js.map
